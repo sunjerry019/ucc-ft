@@ -6,16 +6,16 @@ authors = [
     { name = "Brad Chase", email = "brad@unitary.foundation"},
 ]
 readme = "README.md"
-requires-python = ">=3.12,<3.13"
+requires-python = "~=3.14.3"
 dependencies = [
-    "juliacall>=0.9.24",
-    "juliapkg>=0.1.16",
+    "juliacall>=0.9.31",
+    "juliapkg>=0.1.23",
     "openqasm3[parser]>=1.0.1",
-    "pyqasm>=0.3.2",
-    "qiskit>=2.0.2",
-    "qiskit-qasm3-import>=0.5.1",
-    "stim>=1.14.0",
-    "z3-solver>=4.15.1.0",
+    "pyqasm>=1.0.2",
+    "qiskit>=2.3.1",
+    "qiskit-qasm3-import>=0.6.0",
+    "stim>=1.15.0",
+    "z3-solver>=4.16.0.0",
 ]
 
 [build-system]
